@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EEEBE6"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:backgroundTint="#D500EA4E"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/img"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name "
+        android:textSize="20dp"
+        android:id="@+id/txt1"
+        android:layout_below="@+id/img"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your user name"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edit1"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PassWord"
+        android:textSize="20dp"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/edit1"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:layout_below="@+id/txt2"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edit2"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit2"
+        android:layout_marginTop="40dp"
+        android:id="@+id/checkBox1"
+        android:hint="Remeber Me"
+
+        />
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/checkBox1"
+        android:layout_marginTop="40dp"
+        android:text="LOGIN"
+        android:textSize="15dp"
+        android:id="@+id/login"
+        />
+
+        />
+
+
+</RelativeLayout>
